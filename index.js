@@ -6,13 +6,7 @@ const app        = express()
 
 app.use(express.json()) // permite receber a app receber json 
 app.use(cors())
-mongoose.connect('mongodb+srv://Shiroe:4638554885@cluster0.bkdyf.mongodb.net/nodeApi?retryWrites=true&w=majority',{
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
-	useFindAndModify: false
-}).catch(err => {
-	console.warn(err)
-})
+mongoose.connect()
 requireDir('./src/models')
 
 // o use recebe todo tipo de verbo http
