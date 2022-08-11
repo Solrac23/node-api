@@ -14,6 +14,9 @@
     "require-dir": "^1.2.0"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/mongoose-paginate": "^5.0.10",
+    "@types/require-dir": "^1.0.2",
     "nodemon": "^2.0.4"
   }
 }
